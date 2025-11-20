@@ -21,7 +21,7 @@ while True:
     hobbies.append(hobby)
 life_stage = generate_profile(current_age)
 
-user_profile = {"name": {user_name}, "age": {current_age}, "stage": {life_stage}}
+user_profile = {"name": user_name, "age": current_age, "stage": life_stage}
 user_profile["hobbies"] = hobbies
 
 print('---')
