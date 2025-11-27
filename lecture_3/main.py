@@ -3,8 +3,8 @@ students = []
 
 def hasName(name): #funcion to indicate is this name in students list or not
     for student in students:
-        if name.capitalize() in student["name"]:
-            return True             # лучше протестировать еще
+        if name.capitalize() == student["name"]:
+            return True
     return False
 
 def maxAvgStudent(f, students): # func to find the best student
